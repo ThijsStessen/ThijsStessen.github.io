@@ -1,0 +1,162 @@
+body {
+
+
+	background-image: url("achtergrond1.jpg");
+  background-repeat: repeat-x;
+	font-family: "Calibri", "Candara";
+	background-color: black;
+}
+
+
+ h1
+	{font-size: 200%;
+	color:rgb(169,196,223);
+
+}
+
+h2
+	{font-size: 150%;
+	color:rgb(169,196,223);
+
+}
+
+header
+{
+	font-size: 275%;
+	background: rgb(34,49,70);
+	color:white;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-right: 10%;
+	margin-left: 10%;
+	white-space: nowrap;
+	min-width:850px;
+
+
+
+}
+
+p
+{
+	font-size:125%;
+	color:white;
+	text-align: left;
+	padding-bottom: 50px;
+
+}
+
+
+nav
+{
+	font-size: 150%;
+	background: rgb(34,49,70);
+	color:white;
+	text-align: left;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-right: 10%;
+	margin-left: 10%;
+	white-space: nowrap;
+	min-width: 850px;
+
+
+
+}
+
+a.nav:link
+{
+ text-decoration: none;
+ color:white;
+
+}
+
+a.nav:visited
+{
+	text-decoration: none;
+	color:white;
+}
+a.nav:hover
+{
+	text-decoration: none;
+	color:orange;
+}
+
+a.nav:active
+{
+	text-decoration: none;
+	color:orange;
+}
+
+a:link
+{
+ text-decoration: underline;
+ color:orange;
+
+}
+
+a:visited
+{
+	text-decoration: underline;
+	color:orange;
+}
+a:hover
+{
+	text-decoration: underline;
+	color:orange;
+}
+
+a:active
+{
+	text-decoration: underline;
+	color:orange;
+}
+
+
+li
+{
+	list-style-type: none;
+	display: inline;
+	width: 20px;
+	margin: 0;
+	padding:2%;
+
+
+}
+
+.maintext
+
+{
+	font-size: 100%;
+	border-left: 2px solid rgb(44,49,70);
+	border-right:2px solid rgb(44,49,70);
+	margin-right: 20%;
+	margin-left: 20%;
+	background-image: url("achtergrond2.jpg");
+	background-color: rgb(36, 39, 55);
+	min-width: 700px;
+	padding: 5%;
+	position: relative;
+}
+
+table, tr, th
+{
+	border: 2px solid white;
+  border-collapse: collapse;
+	color: white;
+	font-size: 125%;
+
+}
+th, tr
+{
+	padding: 10px;
+}
+
+.anchor
+{
+font-size: 150%
+}
